@@ -137,6 +137,7 @@ body{
 
 .social-box{
   background-color: #F4FAF8;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,13 +147,14 @@ body{
 .social-box-header{
   color: #333333;
   font-size: 30px;
-  margin-top: 30px;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .social-box-container{
   width: 80%;
   height: 150px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -169,7 +171,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .copyright-bar{
