@@ -134,3 +134,45 @@ body{
   width: 600px;
   height: 600px;
 }
+
+.social-box{
+  background-color: #F4FAF8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-box-header{
+  color: #333333;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.social-box-container{
+  width: 80%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-image-descriptors{
+  display: flex;
+  width: 80%;
+  height: 150px;
+  justify-content: space-around;
+
+}
+
+.copyright-bar{
+  background-color: #F4FAF8;
+  height: 100px;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-bottom: 0;
+}
