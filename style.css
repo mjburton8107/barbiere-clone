@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #F4FAF8;
+  display: inline-block;
+}
+
+.top-logo{
+  font-family: 'Karbon', sans-serif;
+  font-size: 16px;
+  padding-right: 20px;
+  float: right;
+  line-height: 20px;
+}
+
+.top-logo:first-child{
+  font-family: 'Anton', sans-serif;
+  color: #596b7a;
+  font-size: 32px;
+  line-height: 20px;
+  padding-left: 5px;
+  margin: 17px;
+  float: left;
+}
+
+.main-container{
+  background-image: url("http://barbiereslc.com/img/BarbSLC-6.jpg");
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo{
+  background-image: url("http://barbiereslc.com/img/barbiere-logo-light.png");
+  width:900px;
+  height:350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary{
+  font-family: 'karbon', sans-serif;
+  color: #2f363c;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  background-color: #e6f2ee;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.first-divider{
+  background-color: #E9F2EE;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  line-height: 1.5;
+  font-family: 'karbon', sans-serif;
+  font-size: 18px;
+}
+
+.about-the-shop{
+  background-color: #F4FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.middle-divider{
+  background-color: #F4FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-box-left{
+  margin-right: 60px;
+  max-width: 380px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.growing-team{
+  background-color: #E9F2EE;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.book-an-appointment{
+  background-color: #3B4650;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-an-appointment-header{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.appointment-box{
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+}
